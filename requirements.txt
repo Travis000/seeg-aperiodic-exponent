@@ -1,0 +1,19 @@
+# Versions the reported analyses were run under (Python 3.14.5, Windows).
+# These are the versions named in the paper's Supplementary Methods.
+#
+# specparam is a pre-release, so install with --pre or keep the exact pin:
+#     pip install --pre -r requirements.txt
+
+# ── Signal processing ──
+numpy==2.3.5
+scipy==1.17.0
+specparam==2.0.0rc6         # aperiodic fit (SpectralModel API)
+
+# ── Statistics ──
+pandas==2.3.3
+statsmodels==0.14.6         # mixed models, ANCOVA, FDR
+pingouin==0.6.0             # Bayes factor for the paired null tests
+
+# ── Only for aperiodic/recording.py, the optional on-disk adapter ──
+mne==1.11.0                 # EDF reading and montage handling
+yasa==0.6.5                 # automated sleep staging
