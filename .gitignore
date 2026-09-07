@@ -1,0 +1,32 @@
+# ── Nothing patient-derived belongs in this repository ──
+# The package reads no fixed path, so these are a backstop, not a workflow.
+*.edf
+*.EDF
+*.csv
+*.xlsx
+*.xls
+*.npz
+*.fif
+*.set
+*.mat
+
+# ── Outputs ──
+output/
+*.png
+*.pdf
+*.svg
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
